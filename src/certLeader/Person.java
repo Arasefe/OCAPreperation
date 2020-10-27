@@ -10,12 +10,12 @@ public class Person {
     public Person(String n, int a){
         name=n;age=a;
     }
-//    public String getName(){
-//        return name;
-//    }
-//    public int getAge(){
-//        return age;
-//    }
+    public String getName(){
+        return name;
+    }
+    public int getAge(){
+        return age;
+    }
 }
 class Test{
     public static void checkAge(List<Person>list, Predicate<Person>predicate){
