@@ -2,9 +2,9 @@ package ocaCybertek.set4;
 
 public class Question33 {
     public static void main(String[] args) {
-        String names[]={"Thomas","Peter","Joseph","Ismail"};
+        String[] names ={"Thomas","Peter","Joseph","Ismail"};
 
-        String pws[]=new String[3];
+        String[] pws =new String[3];
 
         int idx=0;
 
@@ -13,7 +13,7 @@ public class Question33 {
                 pws[idx]=n.substring(2,6);
                 idx++;
             }
-        }catch (Exception e){
+        }catch (RuntimeException e){                // Exception
             System.out.println("Invalid Name");
         }
         for(String p:pws){

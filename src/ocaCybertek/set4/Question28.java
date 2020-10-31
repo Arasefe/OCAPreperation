@@ -12,7 +12,7 @@ public class Question28 {
         } catch (NumberFormatException nfe) {
             System.err.println("Error");
         }
-        System.err.println("myStr: " + myStr + ",myNum: " + myNum);
+        System.err.println("myStr: " + myStr + ",myNum: " + myNum);     //9009  9009
     }
 
     public static void main(String[] args) {
