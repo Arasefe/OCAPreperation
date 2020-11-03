@@ -12,7 +12,7 @@ public class _3Test {
 
     public static void main(String[] args) {
         int x=3,y=5;
-        _3Test onj=new _3Test(x,y);
+        _3Test obj=new _3Test(x,y);
         System.out.println(x+" "+y);
     }
 }

@@ -1,6 +1,6 @@
 package ocaCybertek.set3;
 
-public class _28X {
+class _28X {
     public static void main(String[] args) {
         Test t1=new Test();
         t1.var=300;
