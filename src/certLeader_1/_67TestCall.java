@@ -8,10 +8,10 @@ public class _67TestCall {
     }
 }
 class Caller{
-     void init(){
+    /*private*/ void init(){
         System.out.println("Initialized");
     }
-     void start(){
+    /*private*/ void start(){
         System.out.println("Started");
     }
 }

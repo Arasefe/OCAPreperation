@@ -4,11 +4,11 @@ public class _20DoProduct {
     int a1;
     public static void doProduct(int a){
         a=a*a;
-        System.out.println(a);
+
     }
     public static void doString(String s){
-        s=s.concat(" "+s);
-        System.out.println(s);
+        s.concat(" "+s);
+
     }
 
     public static void main(String[] args) {

@@ -1,7 +1,7 @@
 package certLeader_1;
 
 public class _74Test {
-    void readCard(int cardNo) {
+    void readCard(int cardNo) /*throws Exception*/ {
         System.out.println("reading card");
     }
     void checkCard(int cardNo) throws RuntimeException{

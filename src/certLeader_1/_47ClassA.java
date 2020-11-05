@@ -1,10 +1,9 @@
 package certLeader_1;
 
-public class _47ClassA {
-}
-class ClassB extends _47ClassA{
+public class _47ClassA { }
 
-}
+class ClassB extends _47ClassA{ }
+
 class ClassC extends ClassB{
     public static void main(String[] args) {
         _47ClassA obj1= new ClassB();

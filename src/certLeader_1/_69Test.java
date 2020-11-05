@@ -7,7 +7,7 @@ public class _69Test {
         chs[1]=new String[5];
         int i=97;
         for (int j = 0; j < chs.length; j++) {
-            for (int k = 0; k < chs.length; k++) {
+            for (int k = 0; k < chs[j].length; k++) {
                 chs[j][k]=""+i;
                 i++;
             }

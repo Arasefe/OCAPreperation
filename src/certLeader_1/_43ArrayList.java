@@ -9,8 +9,9 @@ public class _43ArrayList {
         String arr[]={"Hi","How","Are","You"};
         List<String> arrList=new ArrayList<>(Arrays.asList(arr));
         if(arrList.removeIf((String s)->{return s.length()<=2;})){
+            System.out.println(arrList);
             System.out.println("removed");
+
         }
-        System.out.println(arrList);
     }
 }

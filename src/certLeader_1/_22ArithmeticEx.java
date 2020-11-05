@@ -2,7 +2,7 @@ package certLeader_1;
 
 public class _22ArithmeticEx {
     public static void main(String[] args) {
-        int a;
+        int a=0;                                  // variable a might not have been initialized
         try{
             int num=10;
             int div=0;
@@ -12,6 +12,6 @@ public class _22ArithmeticEx {
         }catch (Exception e){
             System.out.println("Invalid calculation");
         }
-        //System.out.println("Answer "+a);        // line2
+        System.out.println("Answer "+a);        // line2
     }
 }

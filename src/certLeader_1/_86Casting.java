@@ -9,7 +9,7 @@ public class _86Casting extends ACaster {
         ACaster b1=new ACaster();
         ACaster b2=new _86Casting();
         ACaster b3=(BCaster)b2;     // line n1
-        b1=(ACaster)b2;
+        b1=(ACaster)b2;             // line n2
         b1.test();
         b3.test();
     }

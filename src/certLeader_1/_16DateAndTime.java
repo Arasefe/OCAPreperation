@@ -8,6 +8,6 @@ public class _16DateAndTime {
         LocalDateTime dt=LocalDateTime.of(2014,7,31,1,1);
         dt.plusDays(30);
         dt.plusMonths(1);
-        System.out.println(dt.format(DateTimeFormatter.ISO_LOCAL_DATE));    // 2014-07-31
+        System.out.println(dt.format(DateTimeFormatter.ISO_DATE));    // 2014-07-31
     }
 }
