@@ -1,6 +1,6 @@
 package certLeader_2;
 
-public class _132IntArray {
+public class Question132_IntArray {
     public static void main(String[] args) {
         int[][]arr=new int[2][4];
         arr[0]=new int[]{1,3,5,7};
@@ -8,7 +8,7 @@ public class _132IntArray {
 
         for (int[] a : arr) {
             for (int i : a) {
-                System.out.println(i+" ");
+                System.out.print(i+" ");
             }
             System.out.println();
         }

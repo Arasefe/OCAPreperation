@@ -1,11 +1,12 @@
 package certLeader_2;
 
-public class _124TryCatch {
-    String myStr="7007";
+public class Question123_TryCatch {
+
+    String myStr="9009";
     public void doStuff(String str){
         int myNum=0;
         try{
-             myStr=str;
+            String myStr=str;
             myNum=Integer.parseInt(myStr);
         }catch (NumberFormatException ne){
             ne.getStackTrace();
@@ -14,8 +15,9 @@ public class _124TryCatch {
     }
 
 
+
     public static void main(String[] args) {
-        _124TryCatch obj=new _124TryCatch();
-        obj.doStuff("9009");
+        Question123_TryCatch obj=new Question123_TryCatch();
+        obj.doStuff("7007");
     }
 }

@@ -1,6 +1,6 @@
 package certLeader_2;
 
-public class _129TryCatch {
+public class Question129_TryCatch {
     public static void main(String[] args) {
         int ans=0;
         try{

@@ -1,19 +1,21 @@
 package certLeader_2;
 
-public class _119App {
+public class Question119_App {
     String greet="Welcome";
 
-    public _119App(){
-        String greet="Hello";
+    public Question119_App(){
+        //String greet="Hello";
+        this.greet="Hello";
     }
     public void setGreet(){
         String greet="Good Day";
     }
 
     public static void main(String[] args) {
-        _119App t=new _119App();
+        Question119_App t=new Question119_App();
         String greet="Good Luck";
+
         System.out.println(t.greet);
-        t.setGreet();
+
     }
 }

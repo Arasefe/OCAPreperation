@@ -1,6 +1,6 @@
 package certLeader_2;
 
-public class _177Bird {
+class _177Bird {
     public void fly(){
         System.out.println("Fly");
     }

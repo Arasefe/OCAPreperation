@@ -1,6 +1,6 @@
 package certLeader_2;
 
-public class _190Exception {
+class Question190 {
     public void m1() throws Exception{
         System.out.println("m1 accessed");
         throw new E1();

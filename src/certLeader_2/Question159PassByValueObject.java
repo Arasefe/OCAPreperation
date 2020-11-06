@@ -1,8 +1,6 @@
 package certLeader_2;
 
-import java.awt.print.Book;
-
-public class _159PassByValueObject {
+public class Question159PassByValueObject {
     int count;
     public void method(Booker x, int k){
         x.pages=100;
@@ -10,7 +8,7 @@ public class _159PassByValueObject {
     }
 
     public static void main(String[] args) {
-        _159PassByValueObject obj=new _159PassByValueObject();
+        Question159PassByValueObject obj=new Question159PassByValueObject();
         Booker objBook=new Booker();
         System.out.println(objBook.pages+":"+obj.count);
         obj.method(objBook,obj.count);

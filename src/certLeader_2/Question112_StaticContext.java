@@ -1,7 +1,7 @@
 package certLeader_2;
 
-public class _112StaticContext {
-    static int count;
+public class Question112_StaticContext {
+    static int count;//int count;
     public static void display(){
         count++;
         System.out.println("Welcome Visit Count "+count);
@@ -12,10 +12,10 @@ public class _112StaticContext {
         System.out.println("Welcome Visit Count "+count);
     }
     public static void main(String[] args) {
-        _112StaticContext.display();
-        _112StaticContext.display();
+        Question112_StaticContext.display();
+        Question112_StaticContext.display();
 
-        _112StaticContext obj=new _112StaticContext();
+        Question112_StaticContext obj=new Question112_StaticContext();
         obj.listen();
     }
 }

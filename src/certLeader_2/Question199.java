@@ -1,6 +1,6 @@
 package certLeader_2;
 
-public class _199InstanceVariable {
+public class Question199 {
     public static void main(String[] args) {
         String stuff="TV";
         String res=null;

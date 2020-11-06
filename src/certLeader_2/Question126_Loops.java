@@ -1,6 +1,6 @@
 package certLeader_2;
 
-public class _126Loops {
+public class Question126_Loops {
     public static void main(String[] args) {
         whileLoop();
         doWhileLoop();

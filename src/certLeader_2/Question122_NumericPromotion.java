@@ -1,6 +1,6 @@
 package certLeader_2;
 
-public class _122NumericPromotion {
+public class Question122_NumericPromotion {
     public static void main(String[] args) {
         short s1=200;
         int s2=400;

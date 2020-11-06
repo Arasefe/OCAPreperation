@@ -1,6 +1,6 @@
 package certLeader_2;
 
-public class _94Equality {
+public class Question94 {
     public static void main(String[] args) {
         Product p1=new Product(101,"Pen");
         Product p2=new Product(101,"Pen");

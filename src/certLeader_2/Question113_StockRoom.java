@@ -1,6 +1,6 @@
 package certLeader_2;
 
-public class _113StockRoom {
+public class Question113_StockRoom {
     static private int stock=10;
     static private int qty=5;
     static public void purchase(int qty){
@@ -14,10 +14,10 @@ public class _113StockRoom {
     }
 
     public static void main(String[] args) {
-        _113StockRoom k1=new _113StockRoom();
+        Question113_StockRoom k1=new Question113_StockRoom();
         k1.sell(5);
         k1.printStock("Sold");
-        _113StockRoom k2=new _113StockRoom();
+        Question113_StockRoom k2=new Question113_StockRoom();
         k2.purchase(5);
         k2.printStock("Purchased");
     }

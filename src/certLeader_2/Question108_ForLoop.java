@@ -1,6 +1,6 @@
 package certLeader_2;
 
-public class _108ForLoop {
+public class Question108_ForLoop {
     public static void main(String[] args) {
         String[] arr = {"A", "B", "C", "D"};
         for (int i = 0; i < arr.length; i++) {

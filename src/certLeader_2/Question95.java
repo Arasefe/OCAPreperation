@@ -3,7 +3,7 @@ package certLeader_2;
 import java.util.ArrayList;
 import java.util.List;
 
-public class _95List {
+public class Question95 {
     public static void main(String[] args) {
         List<Product> lst=new ArrayList<>();
         lst.add(new Product(10,"Ice Cream"));
