@@ -1,10 +1,10 @@
 package certLeader_3;
 
-public class _202Employee {
+public class Question202_Employee {
     public int salary;
 }
 
-class Manager extends _202Employee{
+class Manager extends Question202_Employee {
     public int budget;
 }
 class Director extends Manager{
@@ -13,9 +13,9 @@ class Director extends Manager{
 
     class Tek{
         public static void main(String[] args) {
-            _202Employee e=new _202Employee();
-            _202Employee m=new Manager();
-            _202Employee d=new Director();
+            Question202_Employee e=new Question202_Employee();
+            Question202_Employee m=new Manager();
+            Question202_Employee d=new Director();
 
             e.salary=50000;     // reference type decides which methods ad variables are accessible
 

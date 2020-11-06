@@ -1,6 +1,6 @@
 package certLeader_2;
 
-public class _153FieldInit {
+public class Question153_FieldInit {
     Character   c;    //null              char c--> empty
     boolean b;
     float f;
@@ -12,7 +12,7 @@ public class _153FieldInit {
     }
 
     public static void main(String[] args) {
-        _153FieldInit f = new _153FieldInit();
+        Question153_FieldInit f = new Question153_FieldInit();
         f.printAll();
     }
 }

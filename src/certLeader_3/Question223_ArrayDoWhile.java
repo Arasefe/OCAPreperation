@@ -1,6 +1,6 @@
 package certLeader_3;
 
-public class _223ArrayDoWhile {
+public class Question223_ArrayDoWhile {
     public static void main(String[] args) {
         int[]arr={1,2,3,4};
         int i=0;                           //0

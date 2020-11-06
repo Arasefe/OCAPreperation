@@ -1,19 +1,23 @@
 package certLeader_2;
 
-class _177Bird {
+class Question177_Bird {
     public void fly(){
         System.out.println("Fly");
     }
 }
-class Peacock extends _177Bird {
+class Peacock extends Question177_Bird {
     public void dance() {
         System.out.println("Dance.");
     }
 
 }
 class Test{
-    _177Bird b=new _177Bird();
-    Peacock p= new Peacock();
+    public static void main(String[] args) {
+        Question177_Bird p=new Peacock();
+        p.fly();
+        Peacock b=new Peacock();
+        b.dance();
+    }
 
 
 }

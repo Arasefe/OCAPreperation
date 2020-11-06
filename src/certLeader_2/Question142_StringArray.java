@@ -1,6 +1,6 @@
 package certLeader_2;
 
-public class _142StringArray {
+public class Question142_StringArray {
     public static void main(String[] args) {
         int wd=0;
         String days[]={"sun","mon","wed","sat"};

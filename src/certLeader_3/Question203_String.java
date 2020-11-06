@@ -1,6 +1,6 @@
 package certLeader_3;
 
-public class _203String {
+public class Question203_String {
     public static void main(String[] args) {
         String myStr="Hello World ";
         myStr.trim();

@@ -1,6 +1,6 @@
 package certLeader_3;
 
-public class _214Ternary {
+public class Question214_Ternary {
     public static final int MIN=1;
 
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
 package certLeader_2;
 
-public class _143InstanceVariables {
+public class Question143_InstanceVariables {
     char c;
     boolean b;
     float f;
@@ -12,7 +12,7 @@ public class _143InstanceVariables {
     }
 
     public static void main(String[] args) {
-        _143InstanceVariables obj=new _143InstanceVariables();
+        Question143_InstanceVariables obj=new Question143_InstanceVariables();
         obj.printAll();
     }
 }

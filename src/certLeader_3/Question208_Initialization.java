@@ -1,6 +1,6 @@
 package certLeader_3;
 
-public class _208Initialization {
+public class Question208_Initialization {
     private void init(){
         System.out.println("Initialized");
     }
@@ -12,7 +12,7 @@ public class _208Initialization {
 }
 class TestCaller{
     public static void main(String[] args) {
-        _208Initialization c=new _208Initialization();
+        Question208_Initialization c=new Question208_Initialization();
         //c.start(); compilation fails
         //c.init();  compilation fails
     }

@@ -1,6 +1,6 @@
 package certLeader_2;
 
-public class _141SubString {
+public class Question141_StringArray {
     public static void main(String[] args) {
 //        String names[] = {"Thomas", "Peter", "Joseph"};
 //        String pwd[] = new String[3];

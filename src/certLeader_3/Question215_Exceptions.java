@@ -1,8 +1,8 @@
 package certLeader_3;
 
-public class _215Exceptions {
+public class Question215_Exceptions {
     public static void main(String[] args) {
-        _215Exceptions obj=new _215Exceptions();
+        Question215_Exceptions obj=new Question215_Exceptions();
 
         try{
             obj.open();
