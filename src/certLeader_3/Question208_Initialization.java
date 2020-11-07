@@ -13,7 +13,7 @@ public class Question208_Initialization {
 class TestCaller{
     public static void main(String[] args) {
         Question208_Initialization c=new Question208_Initialization();
-        //c.start(); compilation fails
-        //c.init();  compilation fails
+        //c.start(); //compilation fails
+        //c.init();  //compilation fails
     }
 }

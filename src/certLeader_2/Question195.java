@@ -7,9 +7,9 @@ public class Question195 {
         shirts[0][1]="blue";
         shirts[1][0]="small";
         shirts[1][1]="medium";
-        for (int i = 0; i < 2; i++) {
-            for (int j = 0; j < 2; j++) {
-                System.out.println(shirts[i][j]+":");
+        for (int i = 0; i < 2; ++i) {
+            for (int j = 0; j < i; ++j) {
+                System.out.print(shirts[i][j]+":");
             }
         }
 
@@ -23,7 +23,7 @@ public class Question195 {
 
         for (String[] shirt : shirts) {
             for (String s : shirt) {
-                System.out.println(s+":");
+                System.out.print(s+":");
             }
         }
     }
